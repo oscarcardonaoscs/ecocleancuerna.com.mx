@@ -1,0 +1,27 @@
+:root {
+    --azul-fuerte: #32338e;
+    --azul-claro: #00acec;
+    --naranja: #db812d;
+    --verde: #b1cd49;
+    --rosa: #ca0088;
+  }
+  
+  h1{
+    color: var(--azul-fuerte); /* Aplica el azul fuerte a títulos */
+  }
+  h2{
+    color: var(--azul-claro); /* Aplica el azul fuerte a títulos */
+  }
+  
+  h3, h4 {
+    color: var(--naranja); /* Aplica el naranja a subtítulos */
+  }
+  
+  .text-primary-custom {
+    color: var(--azul-claro) !important;
+  }
+  
+  .bg-custom {
+    background-color: var(--verde) !important;
+  }
+  
